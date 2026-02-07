@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+You input the 4 digit binary number using pins 0 - 3 with input pin 0 being LSB and input pin 3 MSB.
+This way you can show any number between 0 and 9 (max binary is 1010 = 9)
 
 ## How to test
 
-Explain how to use your project
+Enter any number you want and it will be displayed on the 7 segment display
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+One single digit 7 segment display.
