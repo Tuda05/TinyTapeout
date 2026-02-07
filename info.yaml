@@ -1,12 +1,12 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     455291631430488065                      # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "Tudor BCD Test"                        # Project title
-  author:       "Tuda05"                                # Your name
-  discord:      ""                                      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "A BCD with wowki for TinyTapeout"      # One line description of what your project does
-  language:     "Wokwi"                                 # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0                                       # Clock frequency in Hz (or 0 if not applicable)
+  wokwi_id:     455291631430488065
+  title:        "Tudor BCD Test"
+  author:       "Tuda05"
+  discord:      ""
+  description:  "A simple BCD with wowki for TinyTapeout, use inputs 0-3 with 0LSB and 3MSB"
+  language:     "Wokwi"
+  clock_hz:     0
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -16,10 +16,10 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
+  ui[0]: ""  # 1 LSB
+  ui[1]: ""  # 2
+  ui[2]: ""  # 4
+  ui[3]: ""  # 8 MSB
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
